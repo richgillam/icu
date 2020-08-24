@@ -1,0 +1,502 @@
+Note: rebuild with "make VERBOSE=1 check" to show all compiler parameters.
+make[0]: Making `all' in `stubdata'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/stubdata'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/stubdata'
+make[0]: Making `all' in `common'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/common'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/common'
+make[0]: Making `all' in `i18n'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/i18n'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/i18n'
+make[0]: Making `all' in `layoutex'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/layoutex'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/layoutex'
+make[0]: Making `all' in `io'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/io'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/io'
+make[0]: Making `all' in `tools'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[1]: Making `all' in `toolutil'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[1]: Making `all' in `ctestfw'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[1]: Making `all' in `makeconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[1]: Making `all' in `genrb'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[1]: Making `all' in `genbrk'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[1]: Making `all' in `gencnval'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[1]: Making `all' in `gensprep'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[1]: Making `all' in `icuinfo'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+make[1]: Making `all' in `genccode'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[1]: Making `all' in `gencmn'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[1]: Making `all' in `icupkg'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[1]: Making `all' in `pkgdata'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[1]: Making `all' in `gentest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[1]: Making `all' in `gennorm2'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[1]: Making `all' in `gencfu'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[1]: Making `all' in `gendict'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[1]: Making `all' in `escapesrc'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[0]: Making `all' in `data'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/data'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/data'
+make[0]: Making `all' in `extra'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[1]: Making `all' in `scrptrun'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[1]: Making `all' in `uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[0]: Making `all' in `samples'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[1]: Making `all' in `date'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/date'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/date'
+make[1]: Making `all' in `cal'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/cal'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/cal'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[0]: Making `all' in `test'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source'
+Note: rebuild with "make VERBOSE=1 all-local" to show all compiler parameters.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source'
+make[0]: Making `check' in `stubdata'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/stubdata'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/stubdata'
+make[0]: Making `check' in `common'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/common'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/common'
+make[0]: Making `check' in `i18n'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/i18n'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/i18n'
+make[0]: Making `check' in `layoutex'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/layoutex'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/layoutex'
+make[0]: Making `check' in `io'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/io'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/io'
+make[0]: Making `check' in `tools'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[1]: Making `check' in `toolutil'
+make[1]: Making `all' in `toolutil'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[1]: Making `check' in `ctestfw'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/toolutil'
+make[1]: Making `all' in `ctestfw'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[1]: Making `check' in `makeconv'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/ctestfw'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[1]: Making `all' in `makeconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[1]: Making `check' in `genrb'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/makeconv'
+make[1]: Making `all' in `genrb'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[1]: Making `check' in `genbrk'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genrb'
+make[1]: Making `all' in `genbrk'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[1]: Making `check' in `gencnval'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genbrk'
+make[1]: Making `all' in `gencnval'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[1]: Making `check' in `gensprep'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencnval'
+make[1]: Making `all' in `gensprep'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[1]: Making `all' in `icuinfo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gensprep'
+make[1]: Making `check' in `icuinfo'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+LD_LIBRARY_PATH=../../lib:../../stubdata:../../tools/ctestfw:$LD_LIBRARY_PATH  ./icuinfo -i ../../data/out/build/icudt67l -x ../../config/icuinfo.xml -v -K
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+make[1]: Making `all' in `genccode'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[1]: Making `all' in `gencmn'
+Plugins are disabled.
+ <icuSystemParams type="icu4c">
+    <param name="copyright"> Copyright (C) 2016 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html </param>
+    <param name="product">icu4c</param>
+    <param name="product.full">International Components for Unicode for C/C++</param>
+    <param name="version">67.1</param>
+    <param name="version.unicode">13.0</param>
+    <param name="platform.number">4000</param>
+    <param name="platform.type">Linux</param>
+    <param name="locale.default">en_US</param>
+    <param name="locale.default.bcp47">en-US</param>
+    <param name="converter.default">UTF-8</param>
+    <param name="icudata.name">icudt67l</param>
+    <param name="icudata.path">../../data/out/build/icudt67l</param>
+    <param name="cldr.version">37.0</param>
+    <param name="tz.version">2020a</param>
+    <param name="tz.default">America/Los_Angeles</param>
+    <param name="cpu.bits">64</param>
+    <param name="cpu.big_endian">0</param>
+    <param name="os.wchar_width">4</param>
+    <param name="os.charset_family">0</param>
+    <param name="os.host">x86_64-pc-linux-gnu</param>
+    <param name="build.build">x86_64-pc-linux-gnu</param>
+    <param name="build.cc">clang</param>
+    <param name="build.cxx">clang++</param>
+    <param name="uconfig.internal_digitlist">1</param>
+    <param name="uconfig.have_parseallinput">1</param>
+ </icuSystemParams>
+
+
+ICU Initialization returned: U_ZERO_ERROR
+ICU u_cleanup() called.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icuinfo'
+make[1]: Making `check' in `genccode'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[1]: Making `all' in `icupkg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/genccode'
+make[1]: Making `check' in `gencmn'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[1]: Making `all' in `pkgdata'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencmn'
+make[1]: Making `check' in `icupkg'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[1]: Making `all' in `gentest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/icupkg'
+make[1]: Making `check' in `pkgdata'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[1]: Making `all' in `gennorm2'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/pkgdata'
+make[1]: Making `check' in `gentest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gentest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[1]: Making `check' in `gennorm2'
+make[1]: Making `all' in `gencfu'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gennorm2'
+make[1]: Making `check' in `gencfu'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[1]: Making `all' in `gendict'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gencfu'
+make[1]: Making `all' in `escapesrc'
+make[1]: Making `check' in `gendict'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/gendict'
+make[1]: Making `check' in `escapesrc'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+Testing test-nochange.cpp
+escapesrc: ./test-nochange.cpp -> ./output-nochange.cpp
+Testing test-simple.cpp
+escapesrc: ./test-simple.cpp -> ./output-simple.cpp
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools/escapesrc'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/tools'
+make[0]: Making `check' in `data'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/data'
+PYTHONPATH=../python python3 -m icutools.databuilder.test
+...............
+----------------------------------------------------------------------
+Ran 15 tests in 0.014s
+
+OK
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/data'
+make[0]: Making `check' in `extra'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[1]: Making `all' in `scrptrun'
+make[1]: Making `check' in `scrptrun'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[1]: Making `check' in `uconv'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/scrptrun'
+make[1]: Making `all' in `uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+LD_LIBRARY_PATH=../../lib:../../stubdata:../../tools/ctestfw:$LD_LIBRARY_PATH  ./../../bin/uconv -f ibm-37 ./samples/ibm-37-test.txt
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+PASS: Conversion from ibm-37 was successful.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra/uconv'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/extra'
+make[0]: Making `check' in `samples'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[1]: Making `all' in `date'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/date'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/date'
+make[1]: Making `all' in `cal'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/cal'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples/cal'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[2]: Nothing to be done for 'all-local'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/samples'
+make[0]: Making `check' in `test'
+make[1]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test'
+make[1]: Making `all' in `testdata'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/testdata'
+LD_LIBRARY_PATH=../../lib:../../stubdata:../../tools/ctestfw:$LD_LIBRARY_PATH   ../../bin/pkgdata -q -c -s /usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/testdata/out/build/icudt67l -T ../../test/testdata/out/build -d ../../test/testdata/out -s ../../test/testdata/out/build -p testdata -m common ../../test/testdata/out/testdata/testdata.lst
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/testdata'
+make[1]: Making `all' in `intltest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/intltest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/intltest'
+make[1]: Making `all' in `iotest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/iotest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/iotest'
+make[1]: Making `all' in `cintltst'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/cintltst'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/cintltst'
+make[1]: Making `all' in `letest'
+make[2]: Entering directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/letest'
+clang++ -O3  -W -Wall -pedantic -Wpointer-arith -Wwrite-strings -Wno-long-long -std=c++11  -Qunused-arguments -Wno-parentheses-equality   -o letest letsutil.o cmaps.o FontTableCache.o SimpleFontInstance.o PortableFontInstance.o letest.o cfonts.o xmlreader.o cletest.o -L../../lib -liculx -L../../lib -licuuc -L../../stubdata -licudata -L../../lib -licui18n -L../../tools/ctestfw -licutest -L../../lib -licutu -lpthread -ldl -lm   -licu-le-hb
+/usr/bin/ld: warning: libicuuc.so.63, needed by /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libicu-le-hb.so, may conflict with libicuuc.so.67
+/usr/bin/ld: warning: libicudata.so.63, needed by /usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libicu-le-hb.so, may conflict with libicudata.so.67
+/usr/bin/ld: SimpleFontInstance.o: in function `SimpleFontInstance::SimpleFontInstance(float, LEErrorCode&)':
+SimpleFontInstance.cpp:(.text+0x31): undefined reference to `icu_67::LEFontInstance::yUnitsToPoints(float) const'
+/usr/bin/ld: SimpleFontInstance.cpp:(.text+0x66): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: SimpleFontInstance.o: in function `SimpleFontInstance::~SimpleFontInstance()':
+SimpleFontInstance.cpp:(.text+0x81): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: SimpleFontInstance.o: in function `SimpleFontInstance::~SimpleFontInstance()':
+SimpleFontInstance.cpp:(.text+0x95): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: SimpleFontInstance.o: in function `SimpleFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*, signed char) const':
+SimpleFontInstance.cpp:(.text+0x121): undefined reference to `icu_67::LEFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*, signed char) const'
+/usr/bin/ld: SimpleFontInstance.o: in function `SimpleFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*) const':
+SimpleFontInstance.cpp:(.text+0x131): undefined reference to `icu_67::LEFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x20): undefined reference to `icu_67::LEFontInstance::getDynamicClassID() const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x28): undefined reference to `icu_67::LEFontInstance::getSubFont(char16_t const*, int*, int, int, LEErrorCode&) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x38): undefined reference to `icu_67::LEFontInstance::canDisplay(int) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x48): undefined reference to `icu_67::LEFontInstance::mapCharsToGlyphs(char16_t const*, int, int, signed char, icu_67::LECharMapper const*, signed char, icu_67::LEGlyphStorage&) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x88): undefined reference to `icu_67::LEFontInstance::xUnitsToPoints(float) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x90): undefined reference to `icu_67::LEFontInstance::yUnitsToPoints(float) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x98): undefined reference to `icu_67::LEFontInstance::unitsToPoints(LEPoint&, LEPoint&) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0xa0): undefined reference to `icu_67::LEFontInstance::xPixelsToUnits(float) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0xa8): undefined reference to `icu_67::LEFontInstance::yPixelsToUnits(float) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0xb0): undefined reference to `icu_67::LEFontInstance::pixelsToUnits(LEPoint&, LEPoint&) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0xc8): undefined reference to `icu_67::LEFontInstance::transformFunits(float, float, LEPoint&) const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0xe8): undefined reference to `icu_67::LEFontInstance::getLineHeight() const'
+/usr/bin/ld: SimpleFontInstance.o:(.rodata+0x118): undefined reference to `typeinfo for icu_67::LEFontInstance'
+/usr/bin/ld: PortableFontInstance.o: in function `PortableFontInstance::PortableFontInstance(char const*, float, LEErrorCode&)':
+PortableFontInstance.cpp:(.text+0x8f): undefined reference to `vtable for icu_67::LEFontInstance'
+/usr/bin/ld: PortableFontInstance.cpp:(.text+0x3ea): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: PortableFontInstance.cpp:(.text+0x3fd): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: PortableFontInstance.o: in function `PortableFontInstance::~PortableFontInstance()':
+PortableFontInstance.cpp:(.text+0x4bb): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: PortableFontInstance.cpp:(.text+0x4ce): undefined reference to `icu_67::LEFontInstance::~LEFontInstance()'
+/usr/bin/ld: PortableFontInstance.o: in function `PortableFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*, signed char) const':
+PortableFontInstance.cpp:(.text+0xcf1): undefined reference to `icu_67::LEFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*, signed char) const'
+/usr/bin/ld: PortableFontInstance.o: in function `PortableFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*) const':
+PortableFontInstance.cpp:(.text+0xd01): undefined reference to `icu_67::LEFontInstance::mapCharToGlyph(int, icu_67::LECharMapper const*) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x20): undefined reference to `icu_67::LEFontInstance::getDynamicClassID() const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x28): undefined reference to `icu_67::LEFontInstance::getSubFont(char16_t const*, int*, int, int, LEErrorCode&) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x38): undefined reference to `icu_67::LEFontInstance::canDisplay(int) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x48): undefined reference to `icu_67::LEFontInstance::mapCharsToGlyphs(char16_t const*, int, int, signed char, icu_67::LECharMapper const*, signed char, icu_67::LEGlyphStorage&) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x88): undefined reference to `icu_67::LEFontInstance::xUnitsToPoints(float) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x90): undefined reference to `icu_67::LEFontInstance::yUnitsToPoints(float) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x98): undefined reference to `icu_67::LEFontInstance::unitsToPoints(LEPoint&, LEPoint&) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0xa0): undefined reference to `icu_67::LEFontInstance::xPixelsToUnits(float) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0xa8): undefined reference to `icu_67::LEFontInstance::yPixelsToUnits(float) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0xb0): undefined reference to `icu_67::LEFontInstance::pixelsToUnits(LEPoint&, LEPoint&) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0xc8): undefined reference to `icu_67::LEFontInstance::transformFunits(float, float, LEPoint&) const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0xe8): undefined reference to `icu_67::LEFontInstance::getLineHeight() const'
+/usr/bin/ld: PortableFontInstance.o:(.rodata+0x188): undefined reference to `typeinfo for icu_67::LEFontInstance'
+/usr/bin/ld: letest.o: in function `ParamTest()':
+letest.cpp:(.text+0xd05): undefined reference to `icu_67::LayoutEngine::layoutEngineFactory(icu_67::LEFontInstance const*, int, int, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0xd10): undefined reference to `icu_67::LayoutEngine::getGlyphCount() const'
+/usr/bin/ld: letest.cpp:(.text+0xd5f): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xd8a): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xdb9): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, unsigned int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xde9): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, unsigned int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xe13): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xe3e): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xe6d): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xe9d): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xec7): undefined reference to `icu_67::LayoutEngine::getGlyphPositions(float*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xef5): undefined reference to `icu_67::LayoutEngine::getGlyphPositions(float*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0xf46): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0xfb2): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0xffa): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x1042): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x108a): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.o:letest.cpp:(.text+0x10e2): more undefined references to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)' follow
+/usr/bin/ld: letest.o: in function `ParamTest()':
+letest.cpp:(.text+0x110c): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x1143): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.o: in function `FactoryTest()':
+letest.cpp:(.text+0x1211): undefined reference to `icu_67::LayoutEngine::layoutEngineFactory(icu_67::LEFontInstance const*, int, int, LEErrorCode&)'
+/usr/bin/ld: letest.o: in function `AccessTest()':
+letest.cpp:(.text+0x12d4): undefined reference to `icu_67::LayoutEngine::layoutEngineFactory(icu_67::LEFontInstance const*, int, int, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x1345): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x1369): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x1379): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x138c): undefined reference to `icu_67::LayoutEngine::getGlyphPositions(float*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x13e5): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, unsigned int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x14d9): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, int, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x15c5): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x1681): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x16ff): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x177d): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x17fb): undefined reference to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const'
+/usr/bin/ld: letest.o:letest.cpp:(.text+0x1879): more undefined references to `icu_67::LayoutEngine::getGlyphPosition(int, float&, float&, LEErrorCode&) const' follow
+/usr/bin/ld: letest.o: in function `DataDrivenTest()':
+letest.cpp:(.text+0x263a): undefined reference to `icu_67::LayoutEngine::layoutEngineFactory(icu_67::LEFontInstance const*, int, int, int, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x26ba): undefined reference to `icu_67::LayoutEngine::layoutChars(char16_t const*, int, int, int, signed char, float, float, LEErrorCode&)'
+/usr/bin/ld: letest.cpp:(.text+0x274e): undefined reference to `icu_67::LayoutEngine::getGlyphs(unsigned int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x2760): undefined reference to `icu_67::LayoutEngine::getCharIndices(int*, LEErrorCode&) const'
+/usr/bin/ld: letest.cpp:(.text+0x2772): undefined reference to `icu_67::LayoutEngine::getGlyphPositions(float*, LEErrorCode&) const'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [Makefile:87: letest] Error 1
+make[2]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test/letest'
+make[1]: *** [Makefile:73: all-recursive] Error 2
+make[1]: Leaving directory '/usr/local/google/home/ccornelius/ICU/icu/icu4c/source/test'
+make: *** [Makefile:153: check-recursive] Error 2
