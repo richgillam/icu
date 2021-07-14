@@ -2711,7 +2711,9 @@ class U_I18N_API FormattedNumber : public UMemory, public FormattedValue {
      * @draft ICU 68
      */
     MeasureUnit getOutputUnit(UErrorCode& status) const;
+#endif // U_HIDE_DRAFT_API
 
+#ifndef U_HIDE_INTERNAL_API
     /**
      * Gets the gender of the formatted output. Returns "" when the gender is
      * unknown, or for ungendered languages.
@@ -2719,9 +2721,6 @@ class U_I18N_API FormattedNumber : public UMemory, public FormattedValue {
      * @internal ICU 69 technology preview.
      */
     const char *getGender(UErrorCode& status) const;
-#endif // U_HIDE_DRAFT_API
-
-#ifndef U_HIDE_INTERNAL_API
 
     /**
      *  Gets the raw DecimalQuantity for plural rule selection.
