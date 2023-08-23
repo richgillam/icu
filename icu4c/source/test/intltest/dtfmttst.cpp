@@ -24,7 +24,7 @@
 #include "cmemory.h"
 #include "cstring.h"
 #include "caltest.h"  // for fieldName
-#include <stdio.h> // for snprintf
+#include "charstr.h"
 
 #if U_PLATFORM_USES_ONLY_WIN32_API
 #include "windttst.h"
@@ -133,6 +133,7 @@ void DateFormatTest::runIndexedTest( int32_t index, UBool exec, const char* &nam
     TESTCASE_AUTO(Test20741_ABFields);
     TESTCASE_AUTO(Test22023_UTCWithMinusZero);
     TESTCASE_AUTO(TestNumericFieldStrictParse);
+    TESTCASE_AUTO(TestHourCycle);
 
     TESTCASE_AUTO_END;
 }
@@ -5823,6 +5824,54 @@ void DateFormatTest::TestNumericFieldStrictParse() {
                         TESTDATA[i].localeID, pbuf, TESTDATA[i].field2, TESTDATA[i].value2, value);
            }
         }
+    }
+}
+
+void DateFormatTest::TestHourCycle() {
+    static const UDate date = -845601267742; // March 16, 1943 at 3:45 PM
+    
+    static const struct {
+        const char* languageTag;
+        UnicodeString expectedResult;
+    } TEST_CASES[] = {
+        // test some locales for which we have data
+        { "en-us", u"Tuesday, March 16, 1943 at 3:45:32 PM" },
+        { "en-ca", u"Tuesday, March 16, 1943 at 3:45:32 p.m." },
+        { "en-gb", u"Tuesday, 16 March 1943 at 15:45:32" },
+        { "en-au", u"Tuesday, 16 March 1943 at 3:45:32 pm" },
+        // test a couple locales for which we don't have specific locale files (we should still get the correct hour cycle)
+        { "en-co", u"Tuesday, March 16, 1943 at 3:45:32 PM" },
+        { "en-mx", u"Tuesday, March 16, 1943 at 15:45:32" },
+        // test that the rg subtag does the right thing
+        { "en-us-u-rg-gbzzzz", u"Tuesday, March 16, 1943 at 15:45:32" },
+        { "en-us-u-rg-cazzzz", u"Tuesday, March 16, 1943 at 3:45:32 PM" },
+        { "en-ca-u-rg-uszzzz", u"Tuesday, March 16, 1943 at 3:45:32 p.m." },
+        { "en-gb-u-rg-uszzzz", u"Tuesday, 16 March 1943 at 3:45:32 pm" },
+        { "en-gb-u-rg-cazzzz", u"Tuesday, 16 March 1943 at 3:45:32 pm" },
+        { "en-gb-u-rg-auzzzz", u"Tuesday, 16 March 1943 at 3:45:32 pm" },
+        // test that the hc ("hours") subtag does the right thing
+        { "en-us-u-hc-h23", u"Tuesday, March 16, 1943 at 15:45:32" },
+        { "en-gb-u-hc-h12", u"Tuesday, 16 March 1943 at 3:45:32 pm" },
+        // test that the rg and hc subtags do the right thing when used together
+        { "en-us-u-rg-gbzzzz-hc-h12", u"Tuesday, March 16, 1943 at 3:45:32 PM" },
+        { "en-gb-u-rg-uszzzz-hc-h23", u"Tuesday, 16 March 1943 at 15:45:32" },
+    };
+    
+    for (int32_t i = 0; i < UPRV_LENGTHOF(TEST_CASES); i++) {
+        UErrorCode err = U_ZERO_ERROR;
+        Locale locale = Locale::forLanguageTag(TEST_CASES[i].languageTag, err);
+        LocalPointer<DateFormat> df(DateFormat::createDateTimeInstance(DateFormat::FULL, DateFormat::MEDIUM, locale));
+        df->adoptTimeZone(TimeZone::createTimeZone(u"America/Los_Angeles"));
+        
+        UnicodeString actualResult;
+        FieldPosition fp;
+        df->format(date, actualResult, fp);
+        
+        err = U_ZERO_ERROR; // throw away result from Locale::forLangageTag()-- if that fails, it's a coding errir in this test
+        CharString errorMessage;
+        errorMessage.append("Wrong result for ", err);
+        errorMessage.append(TEST_CASES[i].languageTag, err);
+        assertEquals(errorMessage.data(), TEST_CASES[i].expectedResult, actualResult);
     }
 }
 
