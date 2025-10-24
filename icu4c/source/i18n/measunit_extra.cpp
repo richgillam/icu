@@ -377,9 +377,9 @@ class CategoriesSink : public icu::ResourceSink {
 icu::UInitOnce gUnitExtrasInitOnce {};
 
 // Array of unit aliases.
-MaybeStackVector<icu::CharString> gUnitAliases;
-// Array of replacements for the unit aliases.
-MaybeStackVector<icu::CharString> gUnitReplacements;
+const char** gUnitReplacements;
+const char* gUnitReplacementStrings;
+int32_t gNumUnitReplacements;
 
 // Array of simple unit IDs.
 //
@@ -415,6 +415,11 @@ UBool U_CALLCONV cleanupUnitExtras() {
     gSimpleUnitCategories = nullptr;
     uprv_free(gSimpleUnits);
     gSimpleUnits = nullptr;
+    uprv_free((void*)gUnitReplacementStrings);
+    gUnitReplacementStrings = nullptr;
+    uprv_free(gUnitReplacements);
+    gUnitReplacements = nullptr;
+    gNumUnitReplacements = 0;
     gUnitExtrasInitOnce.reset();
     return true;
 }
@@ -513,24 +518,41 @@ void U_CALLCONV initUnitExtras(UErrorCode& status) {
                                              simpleUnitsCount, b, kSimpleUnitOffset);
     ures_getAllItemsWithFallback(unitsBundle.getAlias(), "convertUnits", identifierSink, status);
 
-    // Populate gUnitAliases and gUnitReplacements.
+    // Populate gUnitReplacements and its associated data structures.
     LocalUResourceBundlePointer aliasBundle(ures_open(U_ICUDATA_ALIAS, "metadata", &status));
     if (U_FAILURE(status)) {
         return;
     }
-    UnitAliasesSink aliasSink(gUnitAliases, gUnitReplacements);
+    MaybeStackVector<CharString> unitAliases;
+    MaybeStackVector<CharString> unitReplacements;
+    
+    UnitAliasesSink aliasSink(unitAliases, unitReplacements);
     ures_getAllChildrenWithFallback(aliasBundle.getAlias(), "alias/unit", aliasSink, status);
     if (U_FAILURE(status)) {
         return;
     }
 
-    for (int32_t i = 0; i < gUnitAliases.length(); i++) {
-        b.add(gUnitAliases[i]->data(), i + kAliasOffset, status);
+    for (int32_t i = 0; i < unitAliases.length(); i++) {
+        b.add(unitAliases[i]->data(), i + kAliasOffset, status);
         if (U_FAILURE(status)) {
             return;
         }
     }
-
+    
+    int32_t unitReplacementStringLength = 0;
+    for (int32_t i = 0; i < unitReplacements.length(); i++) {
+        unitReplacementStringLength += unitReplacements[i]->length() + 1;
+    }
+    gUnitReplacementStrings = (const char*)uprv_malloc(unitReplacementStringLength * sizeof(char));
+    gUnitReplacements = (const char**)uprv_malloc(unitReplacements.length() * sizeof(const char**));
+    gNumUnitReplacements = unitReplacements.length();
+    char* p = const_cast<char*>(gUnitReplacementStrings);
+    for (int32_t i = 0; i < unitReplacements.length(); i++) {
+        gUnitReplacements[i] = p;
+        uprv_strcpy(p, unitReplacements[i]->data());
+        p += unitReplacements[i]->length() + 1;
+    }
+    
     // Build the CharsTrie
     // TODO: Use SLOW or FAST here?
     StringPiece result = b.buildStringPiece(USTRINGTRIE_BUILD_FAST, status);
@@ -1069,18 +1091,16 @@ private:
         }
 
         auto aliasIndex = token.getAliasIndex();
-        if (aliasIndex < 0 || aliasIndex >= gUnitAliases.length() ||
-            aliasIndex >= gUnitReplacements.length()) {
+        if (aliasIndex < 0 || aliasIndex >= gNumUnitReplacements) {
             status = kUnitIdentifierSyntaxError;
             return;
         }
-
-        auto replacement = gUnitReplacements[aliasIndex];
-
+        const char* replacement = gUnitReplacements[aliasIndex];
+        
         // Create new source string: replacement + remaining unparsed portion
         fModifiedSource.clear();
-        fModifiedSource.append(replacement->data(), replacement->length(), status);
-
+        fModifiedSource.append(StringPiece(replacement), status);
+        
         // Add the remaining unparsed portion of fSource which starts from fIndex
         if (fIndex < fSource.length()) {
             StringPiece remaining = fSource.substr(fIndex);
