@@ -1377,7 +1377,7 @@ void IntlTestDateTimePatternGeneratorAPI::testJjMapping() {
             continue;
         }
         if (uprv_strcmp(localeID, "ku_Latn_IQ")==0) {
-            logKnownIssue("CLDR-18495", "ku_Latn_IQ needs either 'h' in Grego std time patterns or timeData update");
+            logKnownIssue("CLDR-19048", "ku_Latn_IQ needs either 'h' in Grego std time patterns or timeData update");
             continue;
         }
         const char16_t* charPtr = timeCycleChars;

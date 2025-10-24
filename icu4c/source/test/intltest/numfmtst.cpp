@@ -917,7 +917,7 @@ static const char* testCases[][2]= {
     {"en_BE@currency=BEF", "1.150,50\\u00A0BEF" },
     {"es_ES@currency=ESP", "1.150\\u00A0\\u20A7" },
     {"eu_ES@currency=ESP", "\\u20A7\\u00A01.150" },
-    {"gl_ES@currency=ESP", "1.150\\u00A0\\u20A7" },
+    {"gl_ES@currency=ESP", "1\\u202F150\\u00A0\\u20A7" },
     {"it_IT@currency=ITL", "ITL\\u00A01.150" },
     {"pt_PT@currency=PTE", "1,150$50\\u00A0\\u200B"}, // per cldrbug 7670
     {"en_US@currency=JPY", "\\u00A51,150"},
@@ -975,11 +975,6 @@ NumberFormatTest::TestCurrency()
         if(U_FAILURE(status)){
             errln("Could not create currency formatter for locale %s",localeID);
             continue;
-        }
-        if (strcmp(localeID, "gl_ES@currency=ESP") == 0 &&
-                logKnownIssue("CLDR-18901", "Problem with ❰NBTSP❱")) {
-                    delete currencyFmt;
-                    continue;
         }
         currencyFmt->format(1150.50, s);
         if(s!=expected){
