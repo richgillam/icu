@@ -68,27 +68,6 @@ de_CH{
     }
     calendar{
         gregorian{
-            DateTimePatterns{
-                "HH:mm:ss zzzz",
-                "HH:mm:ss z",
-                "HH:mm:ss",
-                "HH:mm",
-                "EEEE, d. MMMM y",
-                "d. MMMM y",
-                "dd.MM.y",
-                "dd.MM.yy",
-                "{1}, {0}",
-                "{1}, {0}",
-                "{1}, {0}",
-                "{1}, {0}",
-                "{1}, {0}",
-            }
-            DateTimePatterns%relative{
-                "{1} 'um' {0}",
-                "{1} 'um' {0}",
-                "{1}, {0}",
-                "{1}, {0}",
-            }
             availableFormats{
                 GyM{"M/y G"}
                 GyMEd{"E, MM.dd.Y G"}

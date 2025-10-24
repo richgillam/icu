@@ -42,7 +42,7 @@ vmw{
                 }
             }
             intervalFormats{
-                fallback{"{0} ‘mpakha’ {1}"}
+                fallback{"{0} mpakha {1}"}
             }
             monthNames{
                 format{
